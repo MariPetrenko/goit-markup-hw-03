@@ -152,7 +152,6 @@ ul {
 }
 
 .logo-info {
-  text-align: center;
   padding-top: 200px;
   padding-right: 452px;
   padding-bottom: 200px;
@@ -168,6 +167,8 @@ ul {
   font-family: Roboto;
   font-style: normal;
   text-align: center;
+  text-transform: uppercase;
+  position: absolute;
 }
 
 .logo-btn {
@@ -201,7 +202,7 @@ ul {
 
 .titel {
   margin-top: 0;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   color: var(--titel-text-color);
   font-weight: bold;
   font-size: 14px;
