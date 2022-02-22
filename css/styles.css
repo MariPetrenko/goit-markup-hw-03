@@ -67,6 +67,7 @@ img {
   padding-top: 24px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
+  flex-wrap: nowrap;
 }
 
 /*header-main-nav*/
@@ -124,16 +125,18 @@ img {
   color: var(--accent-text-color-btn);
 }
 
-.heder-contact-list {
-  display: flex;
-  align-items: center;
-}
-.header-contact-items {
-  margin-left: 330px;
-  display: flex;
-  justify-content: flex-end;
-}
+/* .heder-contact-list {
+  /* display: flex; */
+/* align-items: center; */
 
+.header-contact-items {
+  margin-left: auto;
+  display: flex;
+  /* text-align: center; */
+}
+.main-nav-list {
+  display: flex;
+}
 .header-list {
   margin-left: 50px;
 }
