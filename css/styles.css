@@ -337,10 +337,10 @@ img {
 }
 
 .footer-contact-list {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .footer-contact-list:last-child {
-  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 .footer-contact {
   color: var(--text-color-logo-adres-btn);
