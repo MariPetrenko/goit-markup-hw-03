@@ -221,7 +221,9 @@ img {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .features-list {
+  letter-spacing: 0.03em;
   margin-right: 30px;
   width: 270px;
 }
@@ -334,6 +336,12 @@ img {
   background-color: var(--section-fond-color);
 }
 
+.footer-contact-list {
+  padding-bottom: 9px;
+}
+.footer-contact-list:last-child {
+  padding-bottom: 0px;
+}
 .footer-contact {
   color: var(--text-color-logo-adres-btn);
   text-decoration: none;
@@ -341,10 +349,6 @@ img {
   line-height: 1.71;
   font-style: normal;
   display: block;
-  margin-bottom: 9px;
-}
-.footer-contact:last-child {
-  margin-bottom: 0;
 }
 
 .footer-contact:hover,
